@@ -28,6 +28,9 @@ void spila( );
 //mismargar hrúgur í hvert og eitt skipti:
 int hrugufjoldi;
 
+//Bjó til fall sem keyrir notendanafn mitt.
+void notendanafn( ); 
+
 //Hér byrjar aðalforritið:
 int main( )
 {
@@ -38,8 +41,9 @@ int main( )
 		cout << "                ADALVALMYND " << endl << endl;
 		cout << "                      1. Spila NIM" << endl;
 		cout << "                      2. Birta reglurnar i NIM" << endl;
-		cout << "                      3. Haetta " << endl << endl;
-		cout << "                      Veldu 1, 2 eda 3:" << endl << endl;
+		cout << "                      3. Birta notendanafn " << endl; 
+		cout << "                      4. Haetta " << endl; 
+		cout << "                      Veldu 1, 2, 3 eda 4:" << endl << endl;
 		cin >> val;
 		switch ( val )
 		{
@@ -50,14 +54,21 @@ int main( )
 			hjalp( );
 			break;
 		case 3:
+			notendanafn( );
+			break;
+		case 4:
 			break;
 		}
 	}
-	while ( val != 3 );
+	while ( val != 4 );
 
 	return 0;
 }
 
+void notendanafn( )
+{
+	cout << "bjornh13" << endl;
+}
 void spila( )
 {
 	int hruga[ 10 ];
