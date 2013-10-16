@@ -67,7 +67,7 @@ int main( )
 
 void notendanafn( )
 {
-	cout << "bjornh13, DMX & antonva13" << endl;
+	cout << "bjornh13, DMX & antona13" << endl;
 }
 void spila( )
 {
