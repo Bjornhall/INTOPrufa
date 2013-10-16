@@ -41,7 +41,7 @@ int main( )
 		cout << "                ADALVALMYND " << endl << endl;
 		cout << "                      1. Spila NIM" << endl;
 		cout << "                      2. Birta reglurnar i NIM" << endl;
-		cout << "                      3. Birta notendanafn " << endl; 
+		cout << "                      3. Birta notendanofn " << endl; 
 		cout << "                      4. Haetta " << endl; 
 		cout << "                      Veldu 1, 2, 3 eda 4:" << endl << endl;
 		cin >> val;
@@ -67,7 +67,7 @@ int main( )
 
 void notendanafn( )
 {
-	cout << "bjornh13" << endl;
+	cout << "bjornh13, DMX & antonva13" << endl;
 }
 void spila( )
 {
